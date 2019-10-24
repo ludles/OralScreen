@@ -1,5 +1,5 @@
 # Oral Cell Screening Project
-Code of paper "A Deep Learning based Pipeline for Efficient Oral Cancer Screening on Whole Slide Images"
+Code of paper [A Deep Learning based Pipeline for Efficient Oral Cancer Screening on Whole Slide Images](http://arxiv.org/abs/1910.10549)
 
 Each sub-directory contains a separate README instruction. File paths in the code might need to be changed before running.
 
