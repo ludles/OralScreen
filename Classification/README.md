@@ -5,7 +5,36 @@
 Files in the root directory are used for the experiments in the paper.
 
 - `main.py` – main function for training.
+
+- ```
+  usage: main.py [-h] [--dataset {1,2,3}]
+                 [--architecture {ResNet50,DenseNet201}] [--pretrain {0,1}]
+                 [--fold {1,2,3}] [--index INDEX] [--mode {train,test}]
+                 [--savefile {0,1}]
+  
+  Framework for training and evaluation.
+  
+  optional arguments:
+    -h, --help            show this help message and exit
+    --dataset {1,2,3}, -d {1,2,3}
+                          1 -- smear baseline, 2 -- smear pipeline, 3 -- LBC
+                          pipeline
+    --architecture {ResNet50,DenseNet201}, -a {ResNet50,DenseNet201}
+                          choose a network architecture
+    --pretrain {0,1}, -p {0,1}
+                          use pre-trained weights on ImageNet
+    --fold {1,2,3}, -f {1,2,3}
+                          Dataset 1&2: 3 folds; Dataset 3: 2 folds.
+    --index INDEX, -i INDEX
+                          index for multiple training to get STD
+    --mode {train,test}, -m {train,test}
+                          train or test
+    --savefile {0,1}, -s {0,1}
+                          if save results to csv files
+  ```
+
 - `collect_results.sh` – bash script to run the experiments.
+
 - `make_results.py` – make results table in the paper, and table for the plots in the paper.
 
 
