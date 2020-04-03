@@ -130,7 +130,7 @@ elif DATASET == 3:
     
     
 #MODEL_PATH = DIR_LOG + "ResNet_aug.h5"
-if PRETRAIN == 1 and DATASET == 1:
+if PRETRAIN == 0 and DATASET == 1:
     IMG_SHAPE = (80, 80, 1)
     SAMPLE_SHAPE = (80, 80, 1)
 else:
