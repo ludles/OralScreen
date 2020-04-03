@@ -2,10 +2,11 @@
 
 
 
-Files in the root directory apply to all datasets, but adjustment to specific dataset may be required.
+Files in the root directory are used for the experiments in the paper.
 
-- `ResNet50_aug.py` – main script to train the model with 1/8 random augmentation.
-- `evaluate_slide_csv_std.py` – to evaluate the performance on each slide for all folds **3 times**. The **average** results will be written to a `fold_slide_results_data{1-3}.csv` file, last column being the **STD**. (3 trained models are required for each dataset.)
+- `main.py` – main function for training.
+- `collect_results.sh` – bash script to run the experiments.
+- `make_results.py` – make results table in the paper, and table for the plots in the paper.
 
 
 
@@ -46,15 +47,10 @@ on the classification results. Here contains several files:
 
 - `./slide_mosaic3_LBC/` – mosaics consists of 16 * 16 patches from each glass, in order to give an overview of the dataset.
 
-## Others
 
-Here contains other files for development.
 
-- `evaluate_slide.py` – to evaluate the performance on each slide. The results will be printed in the terminal.
-- `evaluate_slide_csv.py` – to evaluate the performance on each slide **for all folds**. The results will be written to a `fold_slide_results_data{1-3}.csv` file. (Dataset 3 contains only 2 folds.)
 
-  
 
-  
+
 
 
