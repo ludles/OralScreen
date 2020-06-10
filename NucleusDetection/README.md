@@ -1,7 +1,5 @@
 # Nucleus detection module
 
-This part is developed based on the code of paper [Microscopy cell counting and detection with fully convolutional regression networks](https://www.tandfonline.com/doi/full/10.1080/21681163.2016.1149104). 
-
 ## Usage
 
 1. `train.py` – to train the detector.
@@ -17,4 +15,6 @@ This part is developed based on the code of paper [Microscopy cell counting and 
 - `draw_sample.py` – to draw detection markers on a generated mask.
 - `PerformanceTest/` – the directory to evaluate performance as `threshold` changes (similar to the code above but more concise and with all needed data included).
 
+## Reference
 
+- [Microscopy cell counting and detection with fully convolutional regression networks](https://www.tandfonline.com/doi/full/10.1080/21681163.2016.1149104) (code: [cell_counting_v2](https://github.com/WeidiXie/cell_counting_v2#cell_counting_v2))
