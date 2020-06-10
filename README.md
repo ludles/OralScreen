@@ -1,39 +1,49 @@
+[![License](https://img.shields.io/badge/license-MIT-green?style=flat)](./LICENSE.md) [![](https://img.shields.io/badge/python-3.6+-blue.svg?style=flat)](https://www.python.org/download/releases/3.6.0/) [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu) 
+
 # Oral Cell Screening Project
+
 Code of paper [A Deep Learning based Pipeline for Efficient Oral Cancer Screening on Whole Slide Images](http://arxiv.org/abs/1910.10549)
-
-Each sub-directory contains a separate README instruction. File paths in the code might need to be changed before running.
-
-
 
 ------
 
-- `OralCellDataPreparation/` – Nucleus Detection (ND) and Focus Selection (FS) modules trained on our data. This will prepare all nucleus patches for classification. It can be tuned to better performance on a new dataset by the code in two directories below:
-  - `NucleusDetection/` – to customise the ND module. 
-  - `FocusSelection/` – to customise the FS module. 
-- `Classification/` – Classification module.
+## Usage instruction
 
+Each sub-directory contains a separate README instruction. File paths in the code might need to be changed before running.
 
+- [`OralCellDataPreparation/`](./OralCellDataPreparation/) – Nucleus Detection (ND) and Focus Selection (FS) modules trained on our data. This will prepare all nucleus patches for classification. It can be tuned to better performance on a new dataset by the code in two directories below:
+  - [`NucleusDetection/`](./NucleusDetection/) – to customise the ND module. 
+  - [`FocusSelection/`](./FocusSelection/) – to customise the FS module. 
+- [`Classification/`](./Classification/) – Classification module.
 
+## Example results
 
+<div align="center">
+    <img src="./img/OC2_mosaic_03.jpg" width="40%"> <img src="./img/OC3_mosaic_37.jpg" width="40%">
+    <br>
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: #999;
+    padding: 2px;">Left: pineline on pap-smear data; Right: pineline on liquid-based data</div>
+</div>
 
-## References
+## Dependencies
 
-[1] [cell_counting_v2](https://github.com/WeidiXie/cell_counting_v2#cell_counting_v2)
+[`oralscreen_env.yml`](./oralscreen_env.yml) includes the **full** list of packages used to run the experiments. Some packages might be unnecessary.
 
-[2] [EMBM](https://github.com/GUAN3737/EMBM) 
+## Citation
 
-##### Copyright from EMBM:
+Please cite our paper if you find the code useful for your research.
 
-All Rights Reserved. This copyright statement may not be removed from any file containing it or from modifications to these files. This copyright notice must also be included in any file or product that is derived from the source files.
+- J. Lu *et al.*, “A Deep Learning based Pipeline for Efficient Oral Cancer Screening on Whole Slide Images,” *International Conference on  Image Analysis and Recognition*, 2020.
 
-Redistribution and use of this code in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+```
+@inproceedings{OralScreen,
+            author = {Lu, Jiahao and Sladoje, Nataša and Stark, Christina Runow and Ramqvist, Eva Darai and Hirsch, Jan-Michaél and Lindblad, Joakim},
+            booktitle = {International Conference on  Image Analysis and Recognition},
+            title = {A Deep Learning based Pipeline for Efficient Oral Cancer Screening on Whole Slide Images},
+            year = {2020}}
+```
 
-- Redistribution's of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
-- Redistribution's in binary form must reproduce the above copyright  notice, this list of conditions and the following disclaimer in    the  documentation and/or other materials provided with the distribution.
+## Acknowledgement
 
-The code and our papers are to be cited in the bibliography as:
-
-Jingwei Guan, Wei Zhang, Jason Gu and Hongliang Ren. "No-reference  blur assessment based on edge modeling." J. Vis. Commun. Image  Represent. 29 (2015) 1¨C7.
-
-DISCLAIMER: This software is provided by the copyright holders and contributors "as  is" and any express or implied warranties, including, but not limited to, the implied warranties of merchantability and fitness for a  particular purpose are disclaimed. In no event shall Shandong  University, members, authors, or contributors be liable for any direct,  indirect, incidental, special, exemplary, or consequential damages  (including, but not limited to, procurement of substitute goods or  services; loss of use, data, or profits; or business interruption)  however caused and on any theory of liability, whether in contract,  strict liability, or tort (including negligence or otherwise) arising in  any way out of the use of this software, even if advised of the  possibility of such damage.
-
+This work is supported by: Swedish Research Council proj. 2015-05878 and 2017-04385, VINNOVA grant 2017-02447, and FTV Stockholms Län AB.
