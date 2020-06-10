@@ -1,4 +1,4 @@
-[![License](https://img.shields.io/github/license/MIDA-group/OralScreen?style=flat)](./LICENSE.MD) [![](https://img.shields.io/badge/python-3.6+-blue.svg?style=flat)](https://www.python.org/download/releases/3.6.0/) [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu) 
+[![License](https://img.shields.io/badge/license-MIT-green?style=flat)](./LICENSE.md) [![](https://img.shields.io/badge/python-3.6+-blue.svg?style=flat)](https://www.python.org/download/releases/3.6.0/) [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu) 
 
 # Oral Cell Screening Project
 
@@ -18,7 +18,7 @@ Each sub-directory contains a separate README instruction. File paths in the cod
 ## Example results
 
 <div align="center">
-    <img src="./img/OC2_mosaic_03.jpg" style="zoom:20%"> <img src="./img/OC3_mosaic_37.jpg" style="zoom:20%">
+    <img src="./img/OC2_mosaic_03.jpg" width="40%"> <img src="./img/OC3_mosaic_37.jpg" width="40%">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
