@@ -39,7 +39,7 @@ Please cite our paper if you find the code useful for your research.
 ```
 @inproceedings{OralScreen,
             author = {Lu, Jiahao and Sladoje, Nataša and Stark, Christina Runow and Ramqvist, Eva Darai and Hirsch, Jan-Michaél and Lindblad, Joakim},
-            booktitle = {International Conference on  Image Analysis and Recognition},
+            booktitle = {International Conference on Image Analysis and Recognition},
             title = {A Deep Learning based Pipeline for Efficient Oral Cancer Screening on Whole Slide Images},
             year = {2020}}
 ```
