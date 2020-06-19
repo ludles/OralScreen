@@ -11,7 +11,7 @@ furnished to do so, subject to the following conditions:
 
 The code and our papers are to be cited in the bibliography as:
 
-> J. Lu *et al.*, “A Deep Learning based Pipeline for Efficient Oral Cancer Screening on Whole Slide Images,” *International Conference on  Image Analysis and Recognition*, 2020.
+> J. Lu *et al.*, “A Deep Learning based Pipeline for Efficient Oral Cancer Screening on Whole Slide Images,” *International Conference on  Image Analysis and Recognition*, 2020, LNCS, vol 12132.
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.

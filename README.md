@@ -2,7 +2,9 @@
 
 # Oral Cell Screening Project
 
-Code of paper [A Deep Learning based Pipeline for Efficient Oral Cancer Screening on Whole Slide Images](http://arxiv.org/abs/1910.10549)
+Code of paper [A Deep Learning based Pipeline for Efficient Oral Cancer Screening on Whole Slide Images](https://doi.org/10.1007/978-3-030-50516-5_22)
+
+- [Pre-print version on arXiv](http://arxiv.org/abs/1910.10549)
 
 ------
 
@@ -34,14 +36,22 @@ Each sub-directory contains a separate README instruction. File paths in the cod
 
 Please cite our paper if you find the code useful for your research.
 
-- J. Lu *et al.*, “A Deep Learning based Pipeline for Efficient Oral Cancer Screening on Whole Slide Images,” *International Conference on  Image Analysis and Recognition*, 2020.
+- J. Lu *et al.*, “A Deep Learning based Pipeline for Efficient Oral Cancer Screening on Whole Slide Images,” *International Conference on  Image Analysis and Recognition*, 2020, LNCS, vol 12132.
 
 ```
 @inproceedings{OralScreen,
-            author = {Lu, Jiahao and Sladoje, Nataša and Stark, Christina Runow and Ramqvist, Eva Darai and Hirsch, Jan-Michaél and Lindblad, Joakim},
-            booktitle = {International Conference on Image Analysis and Recognition},
-            title = {A Deep Learning based Pipeline for Efficient Oral Cancer Screening on Whole Slide Images},
-            year = {2020}}
+  title = {A {{Deep Learning Based Pipeline}} for {{Efficient Oral Cancer Screening}} on {{Whole Slide Images}}},
+  booktitle = {Image {{Analysis}} and {{Recognition}}},
+  author = {Lu, Jiahao and Sladoje, Nataša and Runow Stark, Christina and Darai Ramqvist, Eva and Hirsch, Jan-Michaél and Lindblad, Joakim},
+  date = {2020},
+  pages = {249--261},
+  publisher = {{Springer International Publishing}},
+  location = {{Cham}},
+  doi = {10.1007/978-3-030-50516-5_22},
+  isbn = {978-3-030-50516-5},
+  langid = {english},
+  series = {Lecture {{Notes}} in {{Computer Science}}}
+}
 ```
 
 ## Acknowledgement
